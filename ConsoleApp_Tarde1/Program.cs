@@ -15,3 +15,9 @@ p1.setDescricao("Mouse gamer");
 
 
 Console.WriteLine(p1.getId() + " " + p1.getDescricao() + " Valor = " + p1.getValor());
+
+
+
+Cliente c1 = new Cliente(1, "Felipe Kamada", "32524144");
+
+Console.WriteLine(c1.getId() +" Nome: "+ c1.getNome()+ " Contato: "+ c1.getTelefone());
