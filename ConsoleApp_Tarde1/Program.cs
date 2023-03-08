@@ -21,3 +21,7 @@ Console.WriteLine(p1.getId() + " " + p1.getDescricao() + " Valor = " + p1.getVal
 Cliente c1 = new Cliente(1, "Felipe Kamada", "32524144");
 
 Console.WriteLine(c1.getId() +" Nome: "+ c1.getNome()+ " Contato: "+ c1.getTelefone());
+
+
+Endereco e1 = new Endereco(1, "15902122","Rua sebastião",71,"Jardim Taquarão","Taquaritinga");
+Console.WriteLine(e1.getId() + " Cep: " + e1.getCEP() + " Rua: " + e1.getRua() + " Numero: "+e1.getNumero() + " Bairro: "+e1.getBairro() + " Cidade: " + e1.getCidade());
