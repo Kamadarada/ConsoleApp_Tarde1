@@ -36,6 +36,24 @@ namespace ConsoleApp_Tarde1
             return Valor;
         }
 
+        
+        public void setId(int id)
+        {
+            Id = id;
+        }
+
+        public void setDescricao(string descricao)
+        {
+            Descricao = descricao;
+        }
+        
+        
+        public void setValor(decimal valor)
+        {
+            Valor = valor;
+        }
+
+
 
     }
 }
